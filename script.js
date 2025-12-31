@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 const blocksContainer = document.querySelector(".blocks");
 const subtitle = document.getElementById("subtitle");
 const movies = [
@@ -60,4 +61,4 @@ function shuffleBlocks() {
 }
 window.onload = shuffleBlocks;
 subtitle.textContent = "✨ No hay vuelta atrás...";
-
+});
