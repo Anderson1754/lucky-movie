@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky Movie 🎬</title>
+  <button id="nightBtn">🌙 Modo Cine</button>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="screen">
+    <h1>🎲 Lucky Movie</h1>
+    <p id="subtitle">Elige un bloque… si te atreves 😏</p>
+
+    <div class="blocks">
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+    </div>
+
+    <div id="reveal" class="hidden">
+      <h2 id="movie"></h2>
+      <p id="message"></p>
+      <button onclick="location.reload()">🔁 Jugar otra vez</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
