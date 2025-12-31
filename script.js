@@ -49,3 +49,13 @@ blocks.forEach((block, index) => {
 if (movies[index].secret) {
   message.textContent += "\n\n" + movies[index].secret;
 }
+function shuffleBlocks() {
+  subtitle.textContent = "🔄 El destino se está mezclando...";
+  blocksContainer.classList.add("shuffle");
+
+  setTimeout(() => {
+    blocksContainer.classList.remove("shuffle");
+    subtitle.textContent = "🎲 Ahora elige un bloque";
+  }, 2000);
+}
+window.onload = shuffleBlocks;
