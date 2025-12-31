@@ -1,19 +1,19 @@
 const movies = [
-  {
-    title: "🎬 Orgullo y Prejuicio",
-    msg: "Perfecta para verla abrazados 💕",
-    secret: "💌 Si salió esta… te debo palomitas y una sorpresa 🍿😉"
-  },
-  {
-    title: "🍿 Your Name",
-    msg: "Promete lágrimas… y sonrisas 🥹",
-    secret: ""
-  },
-  {
-    title: "💖 La La Land",
-    msg: "Una noche que no se olvida ✨",
-    secret: ""
-  }
+{
+title: "🎬 Tune in for Love",
+msg: "Un amor que insiste en encontrarse, incluso cuando la vida se interpone.",
+secret: ""
+},
+{
+title: "🎬 Whisper of the Heart",
+msg: "Sueños, primeros amores y esa magia suave que solo se siente en compañía.",
+secret: ""
+},
+{
+title: "🎬 Past Lives",
+msg: "Una historia delicada sobre el amor que fue, el que es y el que pudo ser.",
+secret: "Esta película deja silencios que solo se entienden cuando se ven abrazados."
+}
 ];
 
 
