@@ -47,6 +47,3 @@ blocks.forEach((block, index) => {
 if (movies[index].secret) {
   message.textContent += "\n\n" + movies[index].secret;
 }
-document.getElementById("nightBtn").addEventListener("click", () => {
-  document.body.classList.toggle("night");
-});
