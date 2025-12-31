@@ -1,3 +1,5 @@
+const blocksContainer = document.querySelector(".blocks");
+const subtitle = document.getElementById("subtitle");
 const movies = [
 {
 title: "🎬 Tune in for Love",
