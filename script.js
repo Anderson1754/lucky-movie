@@ -59,3 +59,5 @@ function shuffleBlocks() {
   }, 2000);
 }
 window.onload = shuffleBlocks;
+subtitle.textContent = "✨ No hay vuelta atrás...";
+
